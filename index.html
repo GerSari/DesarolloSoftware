@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tecnologías de Front End</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+th,
+td{
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+tfoot {
+    background-color: rgb(245, 32, 60);
+    font-weight: bold;
+}
+    </style>
+
+</head>
+<body>
+<header>
+    <h1>Tecnologías de Front End</h1>
+</header>
+    <!-- Encabezados -->
+<br>
+
+<main>
+    <section>
+        <div>
+            <h2 id="Estructura">1. Estructura Básica del Documento HTML </h2>
+            <p>Este documento HTML tiene una estructura básica que incluye la declaración DOCTYPE, etiquetas de metadatos y un título</p>
+        </div>
+
+        <div>
+            <h2>2. Encabezados y Propiedades del Texto</h2>
+            <p>
+
+                <b>Esto es un texto en negrita</b> <br>
+                <br>
+                <em>Esto es un texto en cursiva</em> <br>
+                <br>
+                <u>Esto es un texto subrayado</u> <br>
+                <br>
+                <span style="color: green;"> Esto es un texto de color verde </span>
+            </p>
+        </div>
+
+        <div>
+            <h2>3. Diviciones y Agrupaciones de Contenido</h2>
+            <div>
+                <article>
+                    <h3>Seccion 1</h3>
+                        <p>Contenido de la primera seccion agrupada en un div</p>
+                </article>        
+                <article>
+                    <h3>Seccion 1</h3>
+                        <p>Contenido de la primera seccion agrupada en un div</p>
+                </article>
+            </div>
+        </div>
+    </section>
+<!-- Enlaces -->
+<br>
+    <section>
+        <div>
+            <h2>4. Enlaces y Listas</h2>
+                <p>Visita nuestro <a href=https://www.google.com target="_blank"> sitio web</a> para mas informacion</p>
+        </div>
+
+        <div>
+            <p>Enlaces internos:</p>
+                <ul>
+                    <li> <a href=#Estructura target="_blank"> ir a Estructura</a> </li>
+                    <li> <a href=#Multimedia target="_blank"> ir a Multimedia</a> </li>
+                    <li> <a href=#Formulario target="_blank"> ir a Formulario</a> </li>
+                </ul>
+        </div>
+    </section>
+<!-- Listas -->
+    <section>
+        <div>
+            <p>Lista desordenada:</p>
+                <ul>
+                    <li>Primer item de una lista desordenada</li>
+                    <li>Segundo item de una lista desordenada</li>
+                </ul>
+
+            <p>Lista odernada:</p>
+                <ol>
+                    <li>Primer item de una lista ordenada</li>
+                    <li>Segundo item de una lista ordenada</li>
+                </ol>
+        </div>
+<!-- Elementos multimedia -->
+ <br>
+    <section>
+        <div>
+            <h2 id="Multimedia">5. Elementos Multimedia</h2>
+        
+                <img src="https://th.bing.com/th/id/OIP.q7sfHQeSL7b6B5YehBQa1gHaEv?rs=1&pid=ImgDetMain" alt="Es una imagen" width="400px" height="250px">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/oG3GgR95ZRs?si=wR-k25e7dA4F1Hqy"></iframe>
+                <audio controls src="https://download.blender.org/peach/trailer/trailer_1080p.ogg"></audio>
+        </div>
+    </section>
+<!-- Tablas -->
+<br>
+    <section>
+        <h2>6. Tablas</h2>
+            <div>  
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Columna 1</th>
+                            <th>Columna 2</th>
+                            <th>Columna 3</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>FIla 1, celda 1</td>
+                            <td>Fila 1, celda 2</td>
+                            <td>fila 1, celda 3</td>
+                        </tr>
+                        <tr>
+                            <td>FIla 2, celda 1</td>
+                            <td>FIla 2, celda 2</td>
+                            <td>FIla 2, celda 3</td>
+                        </tr>
+                    </tbody>
+
+                    <tfoot>
+                        <tr>
+                            <td>Total 1</td>
+                            <td>Total 2</td>
+                            <td>Total 3</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+    </section>
+<!-- Formularios -->
+<br>
+    <section>
+        <h2 id="Formulario">7. Formulario</h2>
+
+            <form>
+                <div>
+                    <label> Email: </label>
+                    <input type="email" placeholder="Example@example.com.ar">
+                </div>
+                <div>
+                    <label> Nombre: </label>
+                    <input type="text" placeholder="Ingresar Nombre">
+                </div>
+                <div>
+                    <label> Apellido: </label>
+                    <input type="text" placeholder="Ingresar Apellido">
+                </div>
+                <div>
+                    <label> Mensaje: </label>
+                    <input type="text" placeholder="Ingresar Mensaje">
+                </div>
+                <div>
+                    <label> Telefono: </label>
+                    <input type="varchar" placeholder="Ingresar Numero telefono">
+                </div>
+                <div>
+                    <label> Edad: </label>
+                    <input type="number" placeholder="Ingresar Nombre">
+                </div>
+
+                <button type="submit">Enviar formulario</button>
+            </form>
+
+</main>
+
+<footer>
+
+    <h6>Alumno: German Sari</h6>
+
+</footer>
+</body>
+</html>
